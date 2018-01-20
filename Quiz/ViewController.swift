@@ -4,6 +4,7 @@
 //
 //  Created by Kelsey on 1/12/18.
 //  Copyright © 2018 Kelsey Quinn. All rights reserved.
+//  High Point University
 //
 
 import UIKit
