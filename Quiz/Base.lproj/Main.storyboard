@@ -44,9 +44,8 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Kelsey Quinn" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DOG-Db-2sZ">
-                                <rect key="frame" x="138" y="552" width="100" height="29"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Kelsey Quinn" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DOG-Db-2sZ">
+                                <rect key="frame" x="137" y="552" width="100" height="20.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -55,12 +54,22 @@
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="Xqf-yV-lNV" firstAttribute="centerX" secondItem="Wa3-sS-gag" secondAttribute="centerX" id="84v-Yz-sen"/>
+                            <constraint firstItem="DOG-Db-2sZ" firstAttribute="top" secondItem="Xqf-yV-lNV" secondAttribute="bottom" constant="170" id="A0G-i6-egp"/>
+                            <constraint firstItem="BW6-Mk-Vgc" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="39" id="Hqm-Af-5bg"/>
+                            <constraint firstItem="Xqf-yV-lNV" firstAttribute="centerX" secondItem="Wa3-sS-gag" secondAttribute="centerX" id="JpE-oW-77L"/>
+                            <constraint firstItem="WZz-an-e5i" firstAttribute="centerX" secondItem="Wa3-sS-gag" secondAttribute="centerX" id="MAr-TY-K2f"/>
+                            <constraint firstItem="WZz-an-e5i" firstAttribute="top" secondItem="Wa3-sS-gag" secondAttribute="bottom" constant="205" id="TfA-5P-XjO"/>
                             <constraint firstItem="Xqf-yV-lNV" firstAttribute="top" secondItem="WZz-an-e5i" secondAttribute="bottom" constant="8" id="WU7-Te-ujv"/>
+                            <constraint firstItem="DOG-Db-2sZ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Xte-3c-Dbh"/>
                             <constraint firstItem="WZz-an-e5i" firstAttribute="centerX" secondItem="Wa3-sS-gag" secondAttribute="centerX" id="ZBL-33-NC5"/>
                             <constraint firstItem="BW6-Mk-Vgc" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Zap-Q4-MVN"/>
                             <constraint firstItem="BW6-Mk-Vgc" firstAttribute="centerX" secondItem="Wa3-sS-gag" secondAttribute="centerX" id="ahE-Ai-UDt"/>
                             <constraint firstItem="Wa3-sS-gag" firstAttribute="top" secondItem="BW6-Mk-Vgc" secondAttribute="bottom" constant="8" id="bfb-sZ-tRs"/>
                             <constraint firstItem="WZz-an-e5i" firstAttribute="top" secondItem="Wa3-sS-gag" secondAttribute="bottom" constant="205" id="i6h-0d-0hS"/>
+                            <constraint firstItem="Wa3-sS-gag" firstAttribute="top" secondItem="BW6-Mk-Vgc" secondAttribute="bottom" constant="8" id="i9U-ql-zT8"/>
+                            <constraint firstItem="DOG-Db-2sZ" firstAttribute="centerX" secondItem="Wa3-sS-gag" secondAttribute="centerX" id="m7E-Sl-iRh"/>
+                            <constraint firstItem="Xqf-yV-lNV" firstAttribute="top" secondItem="WZz-an-e5i" secondAttribute="bottom" constant="8" id="na8-9n-irw"/>
+                            <constraint firstItem="BW6-Mk-Vgc" firstAttribute="centerX" secondItem="Wa3-sS-gag" secondAttribute="centerX" id="x2O-2z-nHY"/>
                             <constraint firstItem="BW6-Mk-Vgc" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="39" id="zeR-3Z-ifd"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
